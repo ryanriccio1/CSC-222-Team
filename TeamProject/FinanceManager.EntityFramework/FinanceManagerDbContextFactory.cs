@@ -27,7 +27,7 @@ namespace FinanceManager.EntityFramework
             // apply our options from the host builder
             _configureDbContext(options);
 
-            // return a DbContext with the host builder options
+            // return a DbContext with the host builder options 
             return new FinanceManagerDbContext(options.Options);
         }
     }
